@@ -72,7 +72,7 @@ a {
     line-height: 0.8;
     float: left;
     margin: .1em .1em 0 -.2em;
-    color: #9f3334;
+    color: #535050;
     text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
 }
 .benefits p:nth-child(2)::first-letter, .requirements p:nth-child(2)::first-letter {
@@ -743,7 +743,7 @@ div[class^=design] a, div[class^=zen] a {
 }
 
 .design-selection li:hover {
-    background: rgba(255,255,255,0.2);
+    background: rgba(163, 161, 154, 0.911);
 }
 
 .design-name {
