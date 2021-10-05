@@ -73,7 +73,7 @@ a {
     float: left;
     margin: .1em .1em 0 -.2em;
     color: #535050;
-    text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
 }
 .benefits p:nth-child(2)::first-letter, .requirements p:nth-child(2)::first-letter {
     margin-left: -.4em;
@@ -113,11 +113,8 @@ header[role=banner] {
     font-size: 30px;
 }
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  ---------------
     =Layout
-    
-    All righty then. Let's roll.
-    
     First, backgrounds + set up the page wrapper
     --------------------------------------------------    */
 
@@ -493,9 +490,9 @@ h2 {
     }
 }
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  ------------------------------------
     Background Sizing for main elements
-    --------------------------------------------------    */
+    ------------------------------------    */
 
 @media screen and (min-width: 1201px) {
     body, .page-wrapper, .page-wrapper:before, .page-wrapper:after, .intro:after, .supporting div, .supporting footer {
@@ -697,7 +694,7 @@ div[class^=design] a, div[class^=zen] a {
 }
 
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  --------------------------------------------------
     =Sidebar Styling
     
     We are using borders liberally instead of padding
@@ -905,7 +902,7 @@ div[class^=design] a, div[class^=zen] a {
             box-shadow: inset 0 12px 18px -6px rgba(0,0,0,0.4);
 }
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  --------------------------------------------------
     =Responsive Sidebars
     
     Depending on screen dimensions, we can place sidebar
@@ -1094,7 +1091,7 @@ div[class^=design] a, div[class^=zen] a {
             transition: all 0.2s ease-out;
 }
 .wrapper>div a {
-    text-shadow: 2px 2px 0 rgba(255,255,255,0.51);
+    /* text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.51); */
 }
 .wrapper>div a:hover {
     opacity: 1;
