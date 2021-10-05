@@ -265,10 +265,10 @@ header[role=banner] {
 }
 
 .preamble h3:before {
-    content: 'when walking on ';
+    content: 'The more I study, the more insatiable do I feel my genius for it to be. - Ada Lovelace';
 }
 .preamble h3:after {
-    content: ' donâ€™t forget to kiss a stranger.';
+    content: ' ';
 }
 
 /* h1 - "CSS Zen Garden" */
@@ -619,7 +619,7 @@ screen and (device-width: 768px), screen and (device-width: 1024px) {
     padding-right: 60%;
 }
 .explanation h3:before {
-    content: 'she asked ';
+    content: 'About Me ';
     display: block;
 }
 .supporting .participation h3, .supporting .requirements h3 {
@@ -635,17 +635,17 @@ screen and (device-width: 768px), screen and (device-width: 1024px) {
     }
 }
 .participation h3:before {
-    content: 'he requested her ';
+    content: 'Skills ';
     display: block;
 }
 .benefits h3:before {
-    content: 'they became friends with ';
+    content: 'Projects ';
 }
 .requirements h3:before {
-    content: 'before long, though, ';
+    content: 'Education ';
 }
 .requirements h3:after {
-    content: ' had crept in';
+    content: ;
 }
 .supporting div {
     padding: 0 0 3em;
