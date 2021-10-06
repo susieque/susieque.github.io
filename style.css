@@ -168,7 +168,7 @@ body, .page-wrapper:before, .page-wrapper:after {
     bottom: 0;
 }
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  -----------------------------------------------
     =Intro
     Note: IE<9 ignores styles for HTML5 elements. .intro is one.
     --------------------------------------------------    */
@@ -262,7 +262,7 @@ header[role=banner] {
 }
 
 .preamble h3:before {
-    content: 'The more I study, the more insatiable do I feel my genius for it to be. - Ada Lovelace';
+    content: 'I enjoy continuing education';
 }
 .preamble h3:after {
     content: ' ';
