@@ -636,13 +636,13 @@ screen and (device-width: 768px), screen and (device-width: 1024px) {
     display: block;
 }
 .benefits h3:before {
-    content: 'Projects ';
+    content: 'Projects';
 }
 .requirements h3:before {
     content: 'Education ';
 }
 .requirements h3:after {
-    content: ;
+    content: ' ';
 }
 .supporting div {
     padding: 0 0 3em;
