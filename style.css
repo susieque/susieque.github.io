@@ -496,7 +496,7 @@ h2 {
 
 @media screen and (min-width: 1201px) {
     body, .page-wrapper, .page-wrapper:before, .page-wrapper:after, .intro:after, .supporting div, .supporting footer {
-        background-size: 100%; /* if wider than bg image, make those suckers grow! */
+        background-size: 100%; /* if wider than bg image, make them grow! */
     }
     .summary p:first-child:before {
         background-size: auto, 100%; /* match for keyhole */
@@ -526,12 +526,12 @@ h2 {
 @media screen and (max-device-width: 600px) { body, .page-wrapper:before { background-size: 800px } }
 @media screen and (max-device-width: 400px) { body, .page-wrapper:before { background-size: 600px } }
 
-/*  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo
+/*  -------------------------------------------------
     =Supporting Content
     
     Primarily backgrounds and added content on h3s
     
-    Because we want the bgs to show up on scrolling,
+    Want the bgs to show up on scrolling,
     background-position does get a little involved,
     with a fair amount of fine-tuning required.
     --------------------------------------------------    */
